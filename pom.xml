@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>hu.bme.sch.parkettklubb</groupId>
+	<groupId>hu.bme.sch.parkettklub</groupId>
 	<artifactId>CloakRoomCore</artifactId>
 	<version>0.0.1</version>
 	<name>CloakRoomCore</name>
 	<description></description>
 	<organization>
-		<name>parkettklubb</name>
+		<name>parkettklub</name>
 	</organization>
 	<build>
 		<plugins>
@@ -81,7 +81,12 @@
 		<dependency>
 			<groupId>hu.xannosz</groupId>
 			<artifactId>microtools</artifactId>
-			<version>0.1.0</version>
+			<version>0.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.esotericsoftware</groupId>
+			<artifactId>kryonet</artifactId>
+			<version>2.22.0-RC1</version>
 		</dependency>
 	</dependencies>
 
